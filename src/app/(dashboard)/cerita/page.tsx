@@ -244,7 +244,7 @@ export default function CeritaPage() {
       cell: (row: Cerita) => (
         <div className="flex items-center gap-1 text-muted-foreground text-sm">
           <Eye className="h-3 w-3 sm:h-4 sm:w-4" />
-          {(row.views || 0).toLocaleString()}
+          {((row as any).views || 0).toLocaleString()}
         </div>
       ),
     },

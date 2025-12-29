@@ -33,7 +33,7 @@ export interface Cerita {
   deskripsi: string | null;
   thumbnail: string | null;
   status: "DRAFT" | "PUBLISHED";
-  viewCount: number;
+  views: number;
   kategoriId: string;
   createdAt: string;
   updatedAt: string;

@@ -1,7 +1,7 @@
 "use client";
 
 import { Header } from "@/components/layout/header";
-import { useSidebar } from "@/app/(dashboard)/layout";
+import { useSidebar } from "@/components/layout/sidebarContext";
 
 interface PageWrapperProps {
   title: string;
