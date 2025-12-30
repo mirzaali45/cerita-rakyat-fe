@@ -110,7 +110,7 @@ export default function DashboardPage() {
   ];
 
   return (
-    <PageWrapper title="Dashboard" description="Selamat datang di Admin Panel Cerita Rakyat">
+    <PageWrapper title="Dashboard" description="Selamat datang di Admin Panel Kisah Nusa">
       <div className="p-4 sm:p-6 space-y-6">
         {/* Stats Grid */}
         <div className="grid gap-4 grid-cols-2 lg:grid-cols-3">

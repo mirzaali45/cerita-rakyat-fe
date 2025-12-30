@@ -117,21 +117,21 @@ export default function LoginPage() {
           </form>
 
           {/* Divider */}
-          <div className="relative my-6">
+          {/* <div className="relative my-6">
             <div className="absolute inset-0 flex items-center">
               <span className="w-full border-t" />
             </div>
             <div className="relative flex justify-center text-xs uppercase">
               <span className="bg-card px-2 text-muted-foreground">atau</span>
             </div>
-          </div>
+          </div> */}
 
           {/* Register Button */}
-          <Link href="/auth/register" className="w-full">
+          {/* <Link href="/auth/register" className="w-full">
             <Button variant="outline" className="w-full">
               Buat Akun Baru
             </Button>
-          </Link>
+          </Link> */}
         </CardContent>
       </Card>
     </div>
